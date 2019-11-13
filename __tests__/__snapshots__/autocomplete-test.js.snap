@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AutocompleteInput /> properties Given no custom list properties are supplied should set default properties 1`] = `
+Object {
+  "data": Array [
+    "A New Hope",
+    "The Empire Strikes Back",
+    "Return of the Jedi",
+    "The Phantom Menace",
+    "Attack of the Clones",
+    "Revenge of the Sith",
+  ],
+  "disableVirtualization": false,
+  "horizontal": false,
+  "initialNumToRender": 10,
+  "keyExtractor": [Function],
+  "keyboardShouldPersistTaps": "always",
+  "maxToRenderPerBatch": 10,
+  "numColumns": 1,
+  "onEndReached": undefined,
+  "onEndReachedThreshold": 2,
+  "removeClippedSubviews": false,
+  "renderItem": [Function],
+  "renderSeparator": null,
+  "scrollEventThrottle": 50,
+  "style": Array [
+    Object {
+      "backgroundColor": "white",
+      "borderColor": "#b9b9b9",
+      "borderRadius": 1,
+      "borderTopWidth": 0,
+      "borderWidth": 1,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+    },
+    undefined,
+  ],
+  "updateCellsBatchingPeriod": 50,
+  "windowSize": 21,
+}
+`;

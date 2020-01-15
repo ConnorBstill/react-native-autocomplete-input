@@ -223,7 +223,9 @@ const androidStyles = {
   },
   inputContainer: {
     ...border,
-    marginBottom: 0
+    marginBottom: 0,
+    borderTopLeftRadius: 10,
+    borderBottomLeftRadius: 10
   },
   list: {
     ...border,
@@ -244,7 +246,9 @@ const iosStyles = {
   input: {
     backgroundColor: 'white',
     height: 40,
-    paddingLeft: 3
+    paddingLeft: 3,
+    borderTopLeftRadius: 10,
+    borderBottomLeftRadius: 10
   },
   list: {
     ...border,
@@ -260,7 +264,11 @@ const styles = StyleSheet.create({
   input: {
     backgroundColor: 'white',
     height: 40,
-    paddingLeft: 3
+    paddingLeft: 3,
+    borderTopLeftRadius: 10,
+    borderBottomLeftRadius: 10,
+    borderTopRightRadius: 10,
+    borderBottomRightRadius: 10
   },
   ...Platform.select({
     android: { ...androidStyles },
